@@ -1,0 +1,6 @@
+FROM splunk/splunk:latest
+
+ENV SPLUNK_START_ARGS='--accept-license'
+ENV SPLUNK_PASSWORD='Admin@123456'
+
+EXPOSE 8000 8088 9997
